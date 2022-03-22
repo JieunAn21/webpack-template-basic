@@ -37,7 +37,7 @@ module.exports = {
             },
             {
                 test: /\.js%/,
-                user: [
+                use: [
                     'babel-loader'
                 ]
             }
